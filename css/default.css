@@ -9,7 +9,7 @@
 overflow:hidden;
 }
 /* header style */
-.header{width:375px;}
+.header{width:414px;}
 .header{background-color:#b5121b;position:relative;}
 .header .container{height:44px;}
 .startup{position:fixed;left:0.5em;top:7px;z-index:9998;border-radius:20px;padding:4px 8px;background-color:#c5a46e;}
@@ -25,7 +25,7 @@ overflow:hidden;
 .nav .sub-nav{position:absolute;top:0;left:50%;right:0;padding:0.5em;background-color:#999;overflow:hidden;display:none;}
 
 /* footer style */
-.footer{width:375px;}
+.footer{width:414px;}
 .footer .container{padding:0.5em 0 0;font-size:13px;}
 .footer-hd{border-top:1px solid #999;border-bottom:1px solid #999;padding:0.7em 0;font-size:15px;}
 .footer-hd ul{position:relative;}
@@ -43,7 +43,7 @@ overflow:hidden;
 
 /* popup style */
 .pop-up{
-    width:370px;
+    width:410px;
 }
 .pop-up{
     position:absolute;

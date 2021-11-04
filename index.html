@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-title" content="HOLLYS"/> 
+    <meta name="description" content="할리스커피에서 영혼가지 힐링하는 음료를 만나보세요"/> 
+    <meta property="og:title" content="할리스"> 
+    <meta property="og:url" content="http://pam7469.dothome.co.kr/"> 
+    <meta property="og:image" content="http://pam7469.dothome.co.kr/og-img.png"> 
+    <meta property="og:description" content="할리스커피에서 영혼가지 힐링하는 음료를 만나보세요"/> 
+    <meta name="twitter:card" content="summary"> 
+    <meta name="twitter:title" content="할리스"> 
+    <meta name="twitter:url" content="http://pam7469.dothome.co.kr/"> 
+    <meta name="twitter:image" content="http://pam7469.dothome.co.kr/og-img.png"> 
+    <meta name="twitter:description" content="할리스커피에서 영혼가지 힐링하는 음료를 만나보세요"/>
+    
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/index.css">
+    
+    
+    <title>HOLLYS</title>
+   
+</head>
+<body>
+    <div class="pop-up" id="pop-up">
+        <div class="container">
+            <div class="img-box"><video muted autoplay loop src="./images/popup-Coffee.mp4"></video></div>
+            <form action="#">
+                <input type="checkbox" name="chk-box" id="chk-box" >
+                <label for="chk-box">하루동안 열지 않기</label>
+            </form>
+            <button type="button" id="btn-close"></button>
+        </div>
+        <script>           
+            if($.cookie('noneLoad') == 'true'){
+                $('#pop-up').css('display','none');
+            }  
+        </script>
+    </div>
+    <div class="skip-menu">
+        <a href="index.html">home</a>
+        <a href="#">my hollys</a>
+        <a href="#">menu</a>
+        <a href="#">hollys mall</a>
+        <a href="#">membership</a>
+        <a href="#">hollys news</a>
+        <a href="#">store</a>
+        <a href="#">hollys is</a>
+    </div>
+
+    <section class="wrapper">
+        <header class="header">
+            <div class="container clearfix">
+                <div class="startup" id="startup">
+                    <a href="#">가맹문의</a>
+                </div>
+                <div class="logo">
+                    <a href="./index.html"><img src="./images/logo.png" alt="로고 홈으로 이동"></a>
+                </div>
+                <div class="btn-nav" id="btn-nav">
+                    <span>라인</span>
+                    <span>라인</span>
+                    <span>라인</span>
+                </div>
+                <nav class="nav">
+                    <ul class="main-nav">
+                        <li>
+                            <a href="#">MY HOLLYS</a>
+                            <ul class="sub-nav">
+                                <li><a href="#">MY 멤버십</a></li>
+                                <li><a href="#">MY 쿠폰</a></li>
+                                <li><a href="#">MY 할리스카드</a></li>
+                                <li><a href="#">레드아카데미 신청 내역</a></li>
+                                <li><a href="#">회운정보 관리 및 탈퇴</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">MENU</a>
+                            <ul class="sub-nav">
+                                <li><a href="#">COFFEE</a></li>
+                                <li><a href="#">라떼 초코릿 티</a></li>
+                                <li><a href="#">할리치노 빙수</a></li>
+                                <li><a href="#">스파클링</a></li>
+                                <li><a href="#">푸드</a></li>
+                                <li><a href="#">MD상품</a></li>
+                                <li><a href="#">MD식품</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">HOLLYS MALL</a>
+                            <ul class="sub-nav">
+                                <li><a href="#">할리스콘</a></li>
+                                <li><a href="#">할리스카드</a></li>
+                                <li><a href="#">구매내역</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">MEMBERSHIP</a>
+                            <ul class="sub-nav">
+                                <li><a href="#">스마트오더</a></li>
+                                <li><a href="#">멤버십 혜택</a></li>                                
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">HOLLYS NEWS</a>
+                            <ul class="sub-nav">
+                                <li><a href="#">NOTICE</a></li>
+                                <li><a href="#">EVENT</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">STORE</a>
+                            <ul class="sub-nav">
+                                <li><a href="#">매장검색</a></li>                                
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">HOLLYS IS</a>
+                            <ul class="sub-nav">
+                                <li><a href="#">HOLLYS</a></li>
+                                <li><a href="#">할리스 위치 및 연락처</a></li>
+                                <li><a href="#">가맹문의 및 절차</a></li>
+                                <li><a href="#">B2B 사업소개</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="section main-slider">
+            <div class="container">
+                <div class="slider">
+                    <div><a href="#"><img src="./images/main-banner10.jpg" alt="메뉴10로 이동"></a></div>
+                    <div><a href="#"><img src="./images/main-banner11.jpg" alt="메뉴11로 이동"></a></div>
+                    <div><a href="#"><img src="./images/main-banner02.jpg" alt="메뉴02로 이동"></a></div>
+                    <div><a href="#"><img src="./images/main-banner03.jpg" alt="메뉴03로 이동"></a></div>
+                </div>
+            </div>
+        </section>
+        <section class="section menu">
+            <div class="container">
+                <ul class="clearfix">                    
+                    <li>
+                        <a href="#">
+                            <img src="./images/img_main_menu01.gif" alt="hollys mall">
+                            <p>Hollys Mall</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/img_main_menu02.gif" alt="Menu">
+                            <p>Menu</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/img_main_menu03.gif" alt="store">
+                            <p>store</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/img_main_menu04.gif" alt="membership">
+                            <p>membership</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section banner">
+            <div class="container">
+                <ul>
+                    <li><a href="#"><img src="./images/img_banner01.jpg" alt="할리스 멤버십"></a></li>
+                    <li><a href="#"><img src="./images/img_banner02.jpg" alt="할리스 카드"></a></li>
+                    <li><a href="#"><img src="./images/img_banner03.jpg" alt="할리스 b2b"></a></li>
+                    <li><a href="#"><img src="./images/img_banner04.jpg" alt="가맹문의"></a></li>
+                    <li><a href="#"><img src="./images/img_banner05.jpg" alt="창업설명회"></a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="section notice">
+            <div class="container">
+                <div class="notice-hd clearfix">
+                    <div class="notice-tit">Notice</div>
+                    <div class="notice-more">
+                       <a href="#">more</i></a>                        
+                       <i class="fa fa-play" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="notice-list clearfix">
+                    <div class="list-tit">
+                        <a href="#">멤버십 이용약관 변경 안내</a>
+                    </div>
+                    <div class="list-date">
+                        <a href="#">2021-09-29</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-hd">
+                    <ul class="clearfix">
+                        <li><a href="#">가맹문의 및 절차</a></li>
+                        <li><a href="#">아카데미</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contents">
+                    <ul class="footer-nav clearfix">
+                        <li><a href="#">멤버십 로그인</a></li>
+                        <li><a href="#">멈버십 가입</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">고객설문</a></li>
+                        <li><a href="#"><strong>개인정보처리방침</strong></a></li>
+                        <li><a href="#">서비스 이용약관</a></li>
+                        <li><a href="#">멤버십 이용약관</a></li>
+                        <li><a href="#">할리스카드이용약관</a></li>
+                        <li><a href="#">BI 소개</a></li>
+                        <li class="wid50"><a href="#">English</a></li>
+                        <li class="wid50"><a href="#">PC버전</a></li>
+                    </ul>
+                    <address class="address">
+                        <p><strong>(주)케이지할리스에프앤비(대표자:이종현)</strong></p>
+                        <p>통신판매엽:제2019-서울종로-0193호</p>
+                        <p>대표전화:02-2188-7100(가맹문의:02-6350-7229)</p>
+                        <p>주소:서울특별시 종로구 율곡로 88 삼환빌딩 8층 (운니동)</p>
+                        <p>COPYRIGHT &#xa9; KO HOLLYS F&B.ALL Rights Reserved.</p>
+                    </address>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').bxSlider();
+
+            // nav toggle event
+            $('#btn-nav').click(function(){
+                $('.nav').slideToggle();
+            });
+
+            // sub nav toggle event
+            $('.main-nav>li>a').click(function(){
+                $('.main-nav>li>a').not(this).next('.sub-nav').slideUp();
+                $(this).next('.sub-nav').slideToggle();
+            });
+
+
+            $('#startup').on({
+                'click':function(){
+                    $('.pop-up').slideToggle();
+                }
+            })
+
+            $('#btn-close').on({
+                'click':function(){
+                    if($('#chk-box').is(':checked')){
+                        $.cookie('noneLoad','true',{export:1});
+                    }
+                    $('#pop-up').css('display','none');
+                }
+            })
+
+            
+        });
+    </script>
+</body>
+</html>
